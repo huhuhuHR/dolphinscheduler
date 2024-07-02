@@ -1,0 +1,2238 @@
+repo_name: huhuhuHR/dolphinscheduler
+report_id: 80bb6112a8ecdd615857605592e27dbc
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:45:40+00:00'
+requested_by: ruanwenjun
+provider: github
+branch: dev
+detected_tools_count: 173
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/basic/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/basic/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: qiaozhanwei
+  last_updated_on: 2020-01-04 15:38:08.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/src/test/resources/sql/mysql_ddl.sql
+  detection_source: dolphinscheduler-common/src/test/resources/sql/mysql_ddl.sql
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-09-26 01:46:25.000000000 Z
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler
+  detection_source: Repo Metadata
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: ECharts
+  description: A free, powerful charting and visualization library
+  website_url: https://echarts.apache.org/en/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/4230/aSzYQa43_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-07-07 10:18:48.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-hive/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-hive/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/docs/configs/index.md.jsx
+  detection_source: docs/configs/index.md.jsx
+  last_updated_by: Jiajie Zhong
+  last_updated_on: 2022-04-02 02:43:34.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-server/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-server/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-09 04:23:01.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.2.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/pom.xml
+  last_updated_by: wangyang
+  last_updated_on: 2022-01-25 02:04:21.000000000 Z
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2022-05-31 07:22:41.000000000 Z
+- name: Apache Ignite
+  description: An open-source distributed database, caching and processing platform
+  website_url: http://ignite.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/6053/xTBxO73F_200x200.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/basic/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/basic/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-07-06 06:24:13.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-mysql/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-mysql/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-hive/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-hive/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: John Huang
+  last_updated_on: 2024-04-01 01:50:49.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Tq
+  last_updated_on: 2022-09-26 05:49:08.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  last_updated_by: mask
+  last_updated_on: 2021-11-09 12:20:07.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-data-quality/pom.xml
+  detection_source: dolphinscheduler-data-quality/pom.xml
+  last_updated_by: zixi0825
+  last_updated_on: 2022-01-27 07:55:45.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-data-quality/pom.xml
+  detection_source: dolphinscheduler-data-quality/pom.xml
+  last_updated_by: zixi0825
+  last_updated_on: 2022-01-27 07:55:45.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  version: 11.10.13
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/kubernetes/dolphinscheduler/Chart.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/file-manage/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-07-06 06:24:13.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: 9.4.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/kubernetes/dolphinscheduler/Chart.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-mysql/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: 10.3.18
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/kubernetes/dolphinscheduler/Chart.yaml
+  detection_source: deploy/docker/docker-compose.yml
+  last_updated_by: eye-gu
+  last_updated_on: 2023-04-19 08:37:01.000000000 Z
+- name: Snowflake
+  description: The data warehouse built for the cloud
+  website_url: https://www.snowflake.net/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Big Data as a Service
+  image_url: https://img.stackshare.io/service/5889/default_768181e102486f7411fe5f997dac1328d057c2cf.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-snowflake/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-snowflake/pom.xml
+  last_updated_by: He Zhao
+  last_updated_on: 2023-05-06 11:30:50.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/.github/workflows/api-test.yml
+  detection_source: ".github/workflows/api-test.yml"
+  last_updated_by: Eric Gao
+  last_updated_on: 2023-07-06 05:17:13.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-meter/src/main/resources/grafana-demo/docker-compose.yaml
+  detection_source: dolphinscheduler-meter/src/main/resources/grafana-demo/docker-compose.yaml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-06-09 02:55:39.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-microbench/pom.xml
+  detection_source: dolphinscheduler-microbench/pom.xml
+  last_updated_by: CalvinKirs
+  last_updated_on: 2020-06-06 09:11:20.000000000 Z
+- name: JaCoCo
+  description: A code coverage library for Java
+  website_url: https://www.jacoco.org/jacoco/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: qiaozhanwei
+  last_updated_on: 2020-01-04 15:38:08.000000000 Z
+- name: Kube Scheduler Simulator
+  description: A web-based simulator for the Kubernetes scheduler
+  website_url: https://github.com/kubernetes-sigs/kube-scheduler-simulator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/40256/default_df7a9401b75c698f117cfd205c6cb8a334f6cda6.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-meter/src/main/resources/grafana-demo/docker-compose.yaml
+  detection_source: dolphinscheduler-meter/src/main/resources/grafana-demo/docker-compose.yaml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-06-09 02:55:39.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Aaron Wang
+  last_updated_on: 2023-07-21 10:17:53.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-aliyunVoice/src/test/resources/logback.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-aliyunVoice/src/test/resources/logback.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-10-14 04:06:51.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-07-07 10:18:48.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-meter/pom.xml
+  detection_source: dolphinscheduler-meter/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2021-11-14 12:22:13.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/tools/release/requirements.txt
+  detection_source: tools/release/requirements.txt
+  last_updated_by: Jiajie Zhong
+  last_updated_on: 2022-10-12 01:00:59.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/terraform/aws/network-main.tf
+  detection_source: deploy/terraform/aws/network-main.tf
+  last_updated_by: kezhenxu94
+  last_updated_on: 2022-12-22 08:55:32.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/terraform/aws/network-main.tf
+  detection_source: deploy/terraform/aws/network-main.tf
+  last_updated_by: kezhenxu94
+  last_updated_on: 2022-12-22 08:55:32.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  version: 6.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/kubernetes/dolphinscheduler/Chart.yaml
+  detection_source: deploy/docker/docker-compose.yml
+  last_updated_by: eye-gu
+  last_updated_on: 2023-04-19 08:37:01.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/deploy/docker/docker-compose.yml
+  detection_source: deploy/docker/docker-compose.yml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2021-12-10 03:28:53.000000000 Z
+- name: Alt
+  description: A library for managing data within JavaScript applications
+  website_url: https://alt.js.org/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/basic/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/basic/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Base
+  description: All-in-one sales and customer management platform
+  website_url: https://getbase.com/
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: CRM
+  image_url: https://img.stackshare.io/service/3633/ZBMmmvP1_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-hive/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/datasource-hive/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: McAfee Endpoint Protection
+  description: Swiftly detect, prevent, and correct advanced threats
+  website_url: https://www.mcafee.com/enterprise/en-us/products/endpoint-protection-products.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Security
+  image_url: https://img.stackshare.io/service/12055/endpont.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/file-manage/docker-compose.yaml
+  detection_source: dolphinscheduler-api-test/dolphinscheduler-api-test-case/src/test/resources/docker/file-manage/docker-compose.yaml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: Pinia
+  description: The Vue Store that you will enjoy using
+  website_url: https://pinia.vuejs.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48301/default_0cffd727391e16b2a8bd6edbcffc0255a3a541d0.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.27.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-05-09 13:57:33.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.13.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-http/pom.xml
+  last_updated_by: samz406
+  last_updated_on: 2020-12-14 07:47:32.000000000 Z
+  vulnerabilities:
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.13.4
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.13.4.2
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.13.2.1
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-08-23 01:43:17.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-08-23 01:43:17.000000000 Z
+- name: com.alibaba:druid
+  description: An JDBC datasource implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-01-02 04:00:53.000000000 Z
+- name: com.aliyun.oss:aliyun-sdk-oss
+  description: Aliyun OSS SDK for Java Copyright
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: John Huang
+  last_updated_on: 2024-04-01 01:50:49.000000000 Z
+- name: com.amazonaws:aws-java-sdk-emr
+  description: The AWS Java SDK for Amazon EMR module holds the client classes that
+    are used for communicating with Amazon Elastic MapReduce Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-authentication/dolphinscheduler-aws-authentication/pom.xml
+  detection_source: dolphinscheduler-authentication/dolphinscheduler-aws-authentication/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: com.amazonaws:aws-java-sdk-s3
+  description: The AWS Java SDK for Amazon S3 module holds the client classes that
+    is used for communicating with Amazon Simple Storage Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Tq
+  last_updated_on: 2023-01-30 03:15:20.000000000 Z
+- name: com.baomidou:mybatis-plus
+  description: An enhanced toolkit of Mybatis to simplify development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-dao-plugin/dolphinscheduler-dao-api/pom.xml
+  detection_source: dolphinscheduler-dao-plugin/dolphinscheduler-dao-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-10-14 09:58:40.000000000 Z
+- name: com.cronutils:cron-utils
+  description: A Java library to parse
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-scheduler-plugin/dolphinscheduler-scheduler-quartz/pom.xml
+  detection_source: dolphinscheduler-scheduler-plugin/dolphinscheduler-scheduler-quartz/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-06-04 08:39:33.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.13.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  version: 2.13.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-scala_2.11
+  description: Jackson-module-scala
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-data-quality/pom.xml
+  detection_source: dolphinscheduler-data-quality/pom.xml
+  last_updated_by: Jeremy
+  last_updated_on: 2023-04-24 13:28:14.000000000 Z
+- name: com.github.oshi:oshi-core
+  description: A JNA-based
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: John Huang
+  last_updated_on: 2024-04-01 01:50:49.000000000 Z
+- name: com.github.rholder:guava-retrying
+  description: This is a small extension to Google's Guava library to allow for the
+    creation of configurable retrying strategies for an arbitrary function call
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: John Huang
+  last_updated_on: 2024-04-01 01:50:49.000000000 Z
+- name: com.google.auto.service:auto-service
+  description: Provider-configuration files for ServiceLoader
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-22 09:41:17.000000000 Z
+- name: com.google.cloud:google-cloud-storage
+  description: Java idiomatic client for Google Cloud Storage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: John Huang
+  last_updated_on: 2024-04-01 01:50:49.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/pom.xml
+  last_updated_by: wangyang
+  last_updated_on: 2022-01-25 02:04:21.000000000 Z
+- name: com.google.truth:truth
+  description: Parent metadata for Truth, a Java assertion framework
+  version: 1.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-22 09:41:17.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-task-plugin/dolphinscheduler-task-api/pom.xml
+  detection_source: dolphinscheduler-task-plugin/dolphinscheduler-task-api/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2022-10-13 02:23:27.000000000 Z
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-data-quality/pom.xml
+  detection_source: dolphinscheduler-data-quality/pom.xml
+  last_updated_by: Jeremy
+  last_updated_on: 2023-04-24 13:28:14.000000000 Z
+- name: com.squareup.okhttp3:mockwebserver
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-task-plugin/dolphinscheduler-task-http/pom.xml
+  detection_source: dolphinscheduler-task-plugin/dolphinscheduler-task-http/pom.xml
+  last_updated_by: FangYin Cheng
+  last_updated_on: 2022-08-17 14:02:52.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: John Huang
+  last_updated_on: 2024-04-01 01:50:49.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-dao/pom.xml
+  detection_source: dolphinscheduler-dao/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2021-11-14 12:22:13.000000000 Z
+- name: commons-beanutils:commons-beanutils
+  description: Apache Commons BeanUtils provides an easy-to-use but flexible wrapper
+    around reflection and introspection
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Rick Cheng
+  last_updated_on: 2023-04-06 09:49:33.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-09-30 09:38:24.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Rick Cheng
+  last_updated_on: 2023-04-06 09:49:33.000000000 Z
+- name: io.dropwizard.metrics:metrics-core
+  description: Metrics is a Java library which gives you unparalleled insight into
+    what your code does in production
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2022-09-08 01:05:05.000000000 Z
+- name: io.fabric8:kubernetes-client
+  description: Java client for Kubernetes &amp; OpenShift
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Aaron Wang
+  last_updated_on: 2023-07-21 10:17:53.000000000 Z
+- name: io.micrometer:micrometer-core
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-service/pom.xml
+  detection_source: dolphinscheduler-service/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2021-11-14 12:22:13.000000000 Z
+- name: io.micrometer:micrometer-registry-prometheus
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-meter/pom.xml
+  detection_source: dolphinscheduler-meter/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2021-12-12 15:17:50.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Kengo Seki
+  last_updated_on: 2022-09-09 02:47:03.000000000 Z
+- name: javax.annotation:javax.annotation-api
+  description: Common Annotations for the JavaTM Platform API
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/pom.xml
+  detection_source: dolphinscheduler-registry/pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-10-19 03:08:04.000000000 Z
+- name: javax.servlet:servlet-api
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: caishunfeng
+  last_updated_on: 2024-03-22 03:31:47.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-dao-plugin/dolphinscheduler-dao-mysql/pom.xml
+  detection_source: dolphinscheduler-dao-plugin/dolphinscheduler-dao-mysql/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-10-14 09:58:40.000000000 Z
+- name: net.sf.py4j:py4j
+  description: Py4J enables Python programs running in a Python interpreter to dynamically
+    access Java objects in a Java Virtual Machine
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Jiajie Zhong
+  last_updated_on: 2022-04-07 06:41:15.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.apache.commons:commons-email
+  description: Apache Commons Email aims to provide an API for sending email
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-12-02 15:19:08.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.apache.curator:curator-client
+  description: Low-level API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: org.apache.curator:curator-framework
+  description: High-level API that greatly simplifies using ZooKeeper
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: org.apache.curator:curator-recipes
+  description: All of the recipes listed on the ZooKeeper recipes doc
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: org.apache.curator:curator-test
+  description: Unit testing utilities
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: org.apache.hadoop:hadoop-client
+  description: Apache Hadoop Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-09-30 09:38:24.000000000 Z
+- name: org.apache.hadoop:hadoop-common
+  description: Apache Hadoop Common
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-master/pom.xml
+  detection_source: dolphinscheduler-master/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-08-23 01:43:17.000000000 Z
+- name: org.apache.hadoop:hadoop-hdfs
+  description: Apache Hadoop HDFS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-storage-plugin/dolphinscheduler-storage-hdfs/pom.xml
+  detection_source: dolphinscheduler-storage-plugin/dolphinscheduler-storage-hdfs/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-06-17 07:24:56.000000000 Z
+- name: org.apache.hadoop:hadoop-yarn-client
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-yarn-aop/pom.xml
+  detection_source: dolphinscheduler-yarn-aop/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-31 09:12:22.000000000 Z
+- name: org.apache.hive:hive-jdbc
+  description: Hive is a data warehouse infrastructure built on top of Hadoop see
+    http://wiki.apache.org/hadoop/Hive
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-hive/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-hive/pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-09-30 09:38:24.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-dingtalk/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-dingtalk/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-12-02 15:19:08.000000000 Z
+- name: org.apache.httpcomponents:httpcore
+  description: Apache HttpComponents Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-task-plugin/dolphinscheduler-task-dinky/pom.xml
+  detection_source: dolphinscheduler-task-plugin/dolphinscheduler-task-dinky/pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-10-19 03:08:04.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  version: 2.17.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-12-02 15:19:08.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-12-02 15:19:08.000000000 Z
+- name: org.apache.zookeeper:zookeeper
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: org.aspectj:aspectjrt
+  description: The runtime needed to execute a program using AspectJ
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-yarn-aop/pom.xml
+  detection_source: dolphinscheduler-yarn-aop/pom.xml
+  last_updated_by: Aaron Wang
+  last_updated_on: 2022-10-31 08:52:53.000000000 Z
+- name: org.aspectj:aspectjweaver
+  description: The AspectJ weaver introduces advices to java classes
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-yarn-aop/pom.xml
+  detection_source: dolphinscheduler-yarn-aop/pom.xml
+  last_updated_by: Aaron Wang
+  last_updated_on: 2022-10-31 08:52:53.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.23.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: org.awaitility:awaitility
+  description: A Java DSL for synchronizing asynchronous operations
+  version: 4.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.codehaus.janino:janino
+  description: 'The "JANINO" implementation of the "commons-compiler" API: Super-small'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-server/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-server/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-09 04:23:01.000000000 Z
+- name: org.hibernate.validator:hibernate-validator
+  description: Hibernate's Bean Validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: org.jacoco:org.jacoco.agent
+  description: JaCoCo Agent
+  version: 0.8.8
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.java-websocket:Java-WebSocket
+  description: A barebones WebSocket client and server implementation written in 100%
+    Java
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-task-plugin/dolphinscheduler-task-pigeon/pom.xml
+  detection_source: dolphinscheduler-task-plugin/dolphinscheduler-task-pigeon/pom.xml
+  last_updated_by: kezhenxu94
+  last_updated_on: 2021-11-10 10:29:17.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-microbench/pom.xml
+  detection_source: dolphinscheduler-microbench/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-08-27 12:59:55.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.lz4:lz4-java
+  description: Java ports and bindings of the LZ4 compression algorithm and the xxHash
+    hashing algorithm
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-clickhouse/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-clickhouse/pom.xml
+  last_updated_by: fuchanghai
+  last_updated_on: 2022-09-05 01:15:58.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.mockito:mockito-inline
+  description: Mockito preconfigured inline mock maker
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.mockito:mockito-junit-jupiter
+  description: Mockito JUnit 5 support
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.mortbay.jetty:jetty
+  description: Jetty server core
+  version: 6.1.26
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-common/pom.xml
+  detection_source: dolphinscheduler-common/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  version: '1.21'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-microbench/pom.xml
+  detection_source: dolphinscheduler-microbench/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-08-27 12:59:55.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  version: '1.21'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-microbench/pom.xml
+  detection_source: dolphinscheduler-microbench/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-08-27 12:59:55.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-dao-plugin/dolphinscheduler-dao-postgresql/pom.xml
+  detection_source: dolphinscheduler-dao-plugin/dolphinscheduler-dao-postgresql/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-10-14 09:58:40.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: org.quartz-scheduler:quartz
+  description: Enterprise Job Scheduler
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-scheduler-plugin/dolphinscheduler-scheduler-quartz/pom.xml
+  detection_source: dolphinscheduler-scheduler-plugin/dolphinscheduler-scheduler-quartz/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2022-06-04 08:39:33.000000000 Z
+- name: org.seleniumhq.selenium:selenium-chrome-driver
+  description: A browser automation framework and ecosystem
+  version: 4.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-e2e/pom.xml
+  detection_source: dolphinscheduler-e2e/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2024-06-11 05:46:21.000000000 Z
+- name: org.seleniumhq.selenium:selenium-support
+  description: Selenium automates browsers
+  version: 4.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-e2e/pom.xml
+  detection_source: dolphinscheduler-e2e/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2024-06-11 05:46:21.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: org.springframework.boot:spring-boot-actuator
+  description: Spring Boot Actuator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-meter/pom.xml
+  detection_source: dolphinscheduler-meter/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-01-14 14:17:58.000000000 Z
+- name: org.springframework.boot:spring-boot-autoconfigure
+  description: Spring Boot AutoConfigure
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-dao-plugin/dolphinscheduler-dao-api/pom.xml
+  detection_source: dolphinscheduler-dao-plugin/dolphinscheduler-dao-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-10-14 09:58:40.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  version: 2.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-24 06:15:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-dao/pom.xml
+  detection_source: dolphinscheduler-dao/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2023-10-14 09:58:40.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-meter/pom.xml
+  detection_source: dolphinscheduler-meter/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-01-14 14:17:58.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-jetty
+  description: Starter for using Jetty as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-server/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-server/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-09 04:23:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: org.springframework.ldap:spring-ldap-core
+  description: Spring-ldap-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api/pom.xml
+  detection_source: dolphinscheduler-api/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-04-04 15:44:12.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-api/pom.xml
+  detection_source: dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-api/pom.xml
+  last_updated_by: Tq
+  last_updated_on: 2022-11-14 09:23:28.000000000 Z
+- name: org.springframework:spring-jdbc
+  description: Spring JDBC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  detection_source: dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/pom.xml
+  last_updated_by: Eric Gao
+  last_updated_on: 2022-09-30 09:38:24.000000000 Z
+- name: org.testcontainers:postgresql
+  description: Testcontainers is a Java library that supports JUnit tests
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-jdbc/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-jdbc/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-api-test/pom.xml
+  detection_source: dolphinscheduler-api-test/pom.xml
+  last_updated_by: xiangzihao
+  last_updated_on: 2022-06-15 08:29:36.000000000 Z
+- name: org.xerial.snappy:snappy-java
+  description: 'Snappy-java: A fast compression/decompression library'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  detection_source: dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-13 08:35:37.000000000 Z
+- name: org.zeroturnaround:zt-zip
+  description: The project is intended to have a small, easy and fast library to process
+    ZIP archives
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-worker/pom.xml
+  detection_source: dolphinscheduler-worker/pom.xml
+  last_updated_by: Wenjun Ruan
+  last_updated_on: 2024-05-31 09:12:22.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 3.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 3.2.7
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 3.2.10
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.185
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.7.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: "@types/qs"
+  description: TypeScript definitions for qs
+  package_url: https://www.npmjs.com/@types/qs
+  version: 6.9.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17032/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.37.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.37.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 7.8.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 9.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: js-cookie
+  description: A simple, lightweight JavaScript API for handling cookies
+  package_url: https://www.npmjs.com/js-cookie
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-05-09 13:57:33.000000000 Z
+- name: monaco-editor
+  description: A browser based code editor
+  package_url: https://www.npmjs.com/monaco-editor
+  version: 0.34.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-05-09 13:57:33.000000000 Z
+- name: qs
+  description: A querystring parser that supports nesting and arrays
+  package_url: https://www.npmjs.com/qs
+  version: 6.11.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 13.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: screenfull
+  description: Simple wrapper for cross-browser usage of the JavaScript Fullscreen
+    API
+  package_url: https://www.npmjs.com/screenfull
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17952/default_d8903d76dded6915fe2da53370802097e7af05c2.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-07-07 10:18:48.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.2.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: ligang
+  last_updated_on: 2019-03-29 06:12:09.000000000 Z
+- name: vue-i18n
+  description: Internationalization plugin for Vue.js
+  package_url: https://www.npmjs.com/vue-i18n
+  version: 9.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/dolphinscheduler-ui/package.json
+  detection_source: dolphinscheduler-ui/package.json
+  last_updated_by: songjianet
+  last_updated_on: 2022-09-19 12:58:41.000000000 Z
+- name: GitPython
+  description: Python Git Library
+  package_url: https://pypi.org/project/GitPython
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19867/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/tools/release/requirements.txt
+  detection_source: tools/release/requirements.txt
+  last_updated_by: Jiajie Zhong
+  last_updated_on: 2022-10-12 01:00:59.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/huhuhuHR/dolphinscheduler/blob/dev/tools/release/requirements.txt
+  detection_source: tools/release/requirements.txt
+  last_updated_by: Jiajie Zhong
+  last_updated_on: 2022-10-12 01:00:59.000000000 Z
